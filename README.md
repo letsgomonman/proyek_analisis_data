@@ -1,4 +1,4 @@
-\# Proyek Analisis Data: E-Commerce Public Dataset
+# Proyek Analisis Data: E-Commerce Public Dataset
 
 
 
@@ -6,21 +6,21 @@ Proyek ini merupakan tugas akhir dari kelas Belajar Fundamental Analisis Data. T
 
 
 
-\## Pertanyaan Bisnis
+## Pertanyaan Bisnis
 
 Proyek ini dibuat untuk menjawab dua pertanyaan bisnis utama:
 
-1\. Apa saja kategori produk yang menghasilkan total pendapatan (\*revenue\*) tertinggi dan terendah selama periode tahun 2018?
+1. Apa saja kategori produk yang menghasilkan total pendapatan (\*revenue\*) tertinggi dan terendah selama periode tahun 2018?
 
-2\. Bagaimana segmentasi pelanggan berdasarkan tingkat RFM (\*Recency, Frequency, Monetary\*) selama periode transaksi terakhir, dan kelompok pelanggan mana yang paling bernilai (\*Best Customers\*)?
-
-
-
-\## Setup Environment
+2. Bagaimana segmentasi pelanggan berdasarkan tingkat RFM (\*Recency, Frequency, Monetary\*) selama periode transaksi terakhir, dan kelompok pelanggan mana yang paling bernilai (\*Best Customers\*)?
 
 
 
-\### Anaconda:
+## Setup Environment
+
+
+
+### Anaconda:
 
 ```bash
 
