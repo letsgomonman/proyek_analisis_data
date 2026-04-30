@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ### Shell-Terminal
 
 ```
-mkdir proyek\_analisis\_data
+mkdir proyek_analisis_data
 
-cd proyek\_analisis\_data
+cd proyek_analisis_data
 
 pipenv install
 
