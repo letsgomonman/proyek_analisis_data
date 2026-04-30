@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-
+import os
 sns.set(style='dark')
 
 def create_revenue_2018_df(df):
@@ -27,7 +27,10 @@ def create_rfm_df(df):
     
     return rfm_df
 
-all_df = pd.read_csv("main_data.csv")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(current_dir, "main_data.csv")
+
+all_df = pd.read_csv(data_path)
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
